@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{0C31E724-E877-E07C-D261-9465A783BFAF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Let's Try Shooter/Scripts/CompletedScripts/Turret.cs">
+    <Files>
+      <File FileName="Assets/ShootEnemy.cs" Line="51" Column="1" />
+      <File FileName="Assets/Let's Try Shooter/Scripts/CompletedScripts/Health.cs" Line="36" Column="14" />
+      <File FileName="Assets/FollowMe.cs" Line="44" Column="2" />
+      <File FileName="Assets/ScoreText.cs" Line="9" Column="2" />
+      <File FileName="Assets/Let's Try Shooter/Scripts/CompletedScripts/destroybullet.cs" Line="1" Column="1" />
+      <File FileName="Assets/start.cs" Line="13" Column="37" />
+      <File FileName="Assets/SCRE.cs" Line="22" Column="1" />
+      <File FileName="Assets/Let's Try Shooter/Scripts/CompletedScripts/Turret.cs" Line="35" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

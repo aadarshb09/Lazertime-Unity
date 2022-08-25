@@ -1,0 +1,2 @@
+/Users/ba10074301/Documents/VGD/Unity Projects/FPS/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/ba10074301/Documents/VGD/Unity Projects/FPS/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
