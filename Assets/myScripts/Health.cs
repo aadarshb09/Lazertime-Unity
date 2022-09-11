@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour {
 
     public int currentHealth = 3;
-    public GameObject bullet;
+    //public GameObject bullet;
     //public int damageAmount = 1;
     public Collision BulCo;
     public int enemyValue;
