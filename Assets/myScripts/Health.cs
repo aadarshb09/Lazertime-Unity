@@ -6,7 +6,7 @@ public class Health : MonoBehaviour {
 
     public int currentHealth = 3;
     public GameObject bullet;
-    public int damageAmount = 1;
+    //public int damageAmount = 1;
     public Collision BulCo;
     public int enemyValue;
     private bool hasExploded = false;
