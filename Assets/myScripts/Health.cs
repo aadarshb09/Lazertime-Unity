@@ -9,7 +9,6 @@ public class Health : MonoBehaviour {
     public GameObject bullet;
     public int damageAmount = 1;
     public Collision BulCo;
-    public ParticleSystem expl;
     public int enemyValue;
     private bool hasExploded = false;
     private void Start()
