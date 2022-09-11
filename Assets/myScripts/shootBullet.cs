@@ -26,14 +26,8 @@ public class shootBullet : MonoBehaviour
             lasershot.Play();
             GameObject tempBullet;
             tempBullet = (Rigidbody) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
-
-            
-            
-
             //push bullet
-
             tempRigidbody.AddForce(transform.forward * bulletForce);
-
             Destroy(tempBullet, 1.0f);
         }
     }
