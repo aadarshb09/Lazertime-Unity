@@ -35,7 +35,7 @@ public class shootBullet : MonoBehaviour
 
             tempRigidbody.AddForce(transform.forward * bulletForce);
 
-            Destroy(tempBullet, 10.0f);
+            Destroy(tempBullet, 1.0f);
         }
     }
 }
