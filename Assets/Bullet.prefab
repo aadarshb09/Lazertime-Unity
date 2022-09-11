@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 7495906980896489059}
   - component: {fileID: 3085506739829332465}
   - component: {fileID: 7330754749869850600}
-  - component: {fileID: 4966342716088181086}
   - component: {fileID: 3811467158013813988}
+  - component: {fileID: 2955935307136199702}
   - component: {fileID: 8549165707665992406}
-  - component: {fileID: 3007227865844574160}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: bullet
@@ -96,18 +95,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!122 &4966342716088181086
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8440514214266789707}
-  m_Enabled: 0
-  m_Color:
-    serializedVersion: 2
-    rgba: 4293852928
-  m_Size: 0.05
 --- !u!54 &3811467158013813988
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -124,6 +111,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &2955935307136199702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8440514214266789707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815ba7536440347cab57178ac0cfde21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &8549165707665992406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -137,15 +136,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.0000007, z: 1.0000005}
   m_Center: {x: 0.00000005960464, y: -8.326673e-17, z: -0.00000008940699}
---- !u!114 &3007227865844574160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8440514214266789707}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 815ba7536440347cab57178ac0cfde21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

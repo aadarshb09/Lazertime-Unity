@@ -5331,6 +5331,12 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1034261719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1050605591055640094, guid: 13a87b5b577b43c499766e2a0492a3c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1050605590199577649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1038684021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7138296114542443599, guid: 166b672fc0556b245a2a159e3d101dcc,
@@ -15119,10 +15125,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1051716045}
     m_Modifications:
-    - target: {fileID: 2392168, guid: fe8fa948a12001441beaf5aa01a6fd3f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 50810994cb6174d11a4a241deeca7b66, type: 2}
     - target: {fileID: 415732, guid: fe8fa948a12001441beaf5aa01a6fd3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15155,6 +15157,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2392168, guid: fe8fa948a12001441beaf5aa01a6fd3f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50810994cb6174d11a4a241deeca7b66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8fa948a12001441beaf5aa01a6fd3f, type: 3}
 --- !u!4 &1795562740 stripped
@@ -15432,6 +15438,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050605589188079909, guid: 13a87b5b577b43c499766e2a0492a3c9,
+        type: 3}
+      propertyPath: bulletEmitter
+      value: 
+      objectReference: {fileID: 1034261719}
+    - target: {fileID: 1050605589188079909, guid: 13a87b5b577b43c499766e2a0492a3c9,
+        type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 8440514214266789707, guid: db8bcae6a1d8e4605a2db4289150f5e2,
+        type: 3}
+    - target: {fileID: 1050605589188079909, guid: 13a87b5b577b43c499766e2a0492a3c9,
+        type: 3}
+      propertyPath: bulletForce
+      value: 5000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13a87b5b577b43c499766e2a0492a3c9, type: 3}
