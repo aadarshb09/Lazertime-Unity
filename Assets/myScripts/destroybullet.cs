@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class destroybullet : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // destroy player bullet
     void Start()
     {
 
