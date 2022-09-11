@@ -7,7 +7,7 @@ public class shootBullet : MonoBehaviour
     public GameObject bulletEmitter;
 
    
-    public GameObject bullet;
+    public Rigidbody bullet;
 
     
     public float bulletForce;
@@ -25,15 +25,11 @@ public class shootBullet : MonoBehaviour
             var lasershot = GetComponent<AudioSource>();
             lasershot.Play();
             GameObject tempBullet;
-            tempBullet = (GameObject) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
+            tempBullet = (Rigidbody) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
 
             
-            //Correct rotation
+            //correct rotation
             tempBullet.transform.Rotate(Vector3.left * 90);
-
-            //get rigidbody from the new Bullet
-            Rigidbody tempRigidbody;
-            tempRigidbody = tempBullet.GetComponent<Rigidbody>();
 
             //push bullet
 
