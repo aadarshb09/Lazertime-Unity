@@ -28,8 +28,7 @@ public class shootBullet : MonoBehaviour
             tempBullet = (Rigidbody) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
 
             
-            //correct rotation
-            tempBullet.transform.Rotate(Vector3.left * 90);
+            
 
             //push bullet
 
