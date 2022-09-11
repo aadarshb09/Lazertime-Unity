@@ -37,9 +37,9 @@ public class shootBullet : MonoBehaviour
 
             //push bullet
 
-            Temporary_RigidBody.AddForce(transform.forward * bulletForce);
+            tempRigidbody.AddForce(transform.forward * bulletForce);
 
-            Destroy(Temporary_Bullet_Handler, 10.0f);
+            Destroy(tempBullet, 10.0f);
         }
     }
 }
