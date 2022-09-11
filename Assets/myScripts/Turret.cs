@@ -8,7 +8,6 @@ public class Turret : MonoBehaviour
     public Transform player;
     public float range = 50.0f;
     public float bulletImpulse = 20.0f;
-    public AudioSource hurt;
 
     private bool onRange = false;
 
