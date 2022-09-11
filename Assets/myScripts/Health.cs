@@ -53,7 +53,6 @@ public class Health : MonoBehaviour {
         lode.Play();
         Destroy(this.gameObject, exp.main.duration);
         ScoreText.score += enemyValue;
-        //exp.Play();
     }
 
 }
