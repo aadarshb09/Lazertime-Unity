@@ -18,7 +18,6 @@ public class runner : MonoBehaviour
     {
         //checking if collider is really the player's
         if (playerCol.gameObject.tag == "MainCamera" && justHit == false) {
-           var ouch = GetComponent<AudioSource>();
             HealthText.playerHealth--;
             ouch.Play();
             justHit = true;
