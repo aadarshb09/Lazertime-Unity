@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealtj : MonoBehaviour
 {
 
-    //The box's current health point total
+    
     
     public GameObject enbullet;
     public Collider enbulletCOLL;
