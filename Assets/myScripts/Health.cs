@@ -47,13 +47,13 @@ public class Health : MonoBehaviour {
         hasExploded = true;
         var exp = GetComponent<ParticleSystem>();
         var lode = GetComponent<AudioSource>();
-        Destroy(this.gameObject, exp.main.duration);
-        ScoreText.score += enemyValue;
+
         
         exp.Play();
         lode.Play();
-       
-        exp.Play();
+        Destroy(this.gameObject, exp.main.duration);
+        ScoreText.score += enemyValue;
+        //exp.Play();
     }
 
 }
