@@ -28,7 +28,7 @@ public class ShootPlayer : MonoBehaviour
         {
 
             Rigidbody bullet = (Rigidbody)Instantiate(projectile, transform.position + transform.forward, transform.rotation);
-            bullet.AddForce(transform.forward * bulletImpulse, ForceMode.Impulse);
+            bullet.AddForce(bulletImpulse, ForceMode.Impulse);
 
             Destroy(bullet.gameObject, 1);
         }
