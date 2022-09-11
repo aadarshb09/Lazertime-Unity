@@ -4,8 +4,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour {
 
-	//The box's current health point total
-	public int currentHealth = 3;
+    public int currentHealth = 3;
     public GameObject bullet;
     public int damageAmount = 1;
     public Collision BulCo;
