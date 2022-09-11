@@ -24,16 +24,16 @@ public class shootBullet : MonoBehaviour
         {
             var lasershot = GetComponent<AudioSource>();
             lasershot.Play();
-            GameObject Temporary_Bullet_Handler;
-            Temporary_Bullet_Handler = (GameObject) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
+            GameObject tempBullet;
+            tempBullet = (GameObject) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
 
             
             //Correct rotation
-            Temporary_Bullet_Handler.transform.Rotate(Vector3.left * 90);
+            tempBullet.transform.Rotate(Vector3.left * 90);
 
             //get rigidbody from the new Bullet
-            Rigidbody Temporary_RigidBody;
-            Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
+            Rigidbody tempRigidbody;
+            tempRigidbody = tempBullet.GetComponent<Rigidbody>();
 
             //push bullet
 
