@@ -16,6 +16,7 @@ public class slowMotion : MonoBehaviour
             if (doSlowMo)
             {
                 Time.timeScale = normTime;
+                //Change back to normal fixeddeltatime
                 Time.fixedDeltaTime = .02f * Time.timeScale;
                 doSlowMo = false;
             }
@@ -25,6 +26,7 @@ public class slowMotion : MonoBehaviour
             if (!doSlowMo)
             {
                 Time.timeScale = slowMo;
+                //set fixed delta time to scale with timescale
                 Time.fixedDeltaTime = .02f * Time.timeScale;
                 doSlowMo = true;
             }
