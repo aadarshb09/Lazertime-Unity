@@ -19,7 +19,6 @@ public class runner : MonoBehaviour
         //checking if collider is really the player's
         if (playerCol.gameObject.tag == "MainCamera" && justHit == false) {
             HealthText.playerHealth--;
-            ouch.Play();
             justHit = true;
             new WaitForSeconds(3f);
             justHit = false;
