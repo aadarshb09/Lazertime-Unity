@@ -25,7 +25,7 @@ public class shootBullet : MonoBehaviour
             var lasershot = GetComponent<AudioSource>();
             lasershot.Play();
             GameObject Temporary_Bullet_Handler;
-            Temporary_Bullet_Handler = Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation) as GameObject;
+            Temporary_Bullet_Handler = (GameObject) Instantiate(bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
 
             
             //Correct rotation
